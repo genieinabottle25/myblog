@@ -4,34 +4,21 @@ title:  "Hello World!"
 date:   2020-10-21 19:21:38 +0100
 categories: jekyll update
 ---
+# Introduction
 Hello Nice to meet you!
-hhjjddd  uugi
 
-hello everyone
-This is my blog
+I am LING JIN, you can call me Ling or Genie if you want. I am a Korean Chinese from Beijing, China, and I was major in International Politics (Diplomacy). During my internship, I have engaged in multiple areas such as website, design, and curation.
 
-hello everyone!
+Museums or galleries which are full of different interactions or background stories will always attract me more than other museums, such as VR technologies or relevant videos. One of my favorite online exhibitions is [the Palace Museum](https://gugongzhanlan.dpm.org.cn/exhibitShare/111), which shows the whole exhibition online with 360 panoramic views.
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+# My profile
+<img src="/../media/img/img02.jpg" width="300">
 
-Jekyll requires blog post files to be named according to the following format:
+# My top 5 museums and galleries
+1. [Palace of Versailles](http://www.chateauversailles.fr/)
+2. [Louvre Museum](https://www.louvre.fr/)
+3. [The Vatican Museum](http://www.museivaticani.va/content/museivaticani/en.html")
+4. [the Palace Museum](https://www.dpm.org.cn/Home.html)
+5. [Sanxingdui Museum](http://www.sxd.cn/)
 
-`YEAR-MONTH-DAY-title.MARKUP`
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
