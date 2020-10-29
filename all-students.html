@@ -4,6 +4,21 @@ title: All my students
 ---
 
 
-{% for student in site.data.students %} 
-{{ student.name }}
+{% for student in site.data.students limit:10  %} 
+
+   <p>{{ student.name }}: <a href="{{student.blog_url}}">blog</a></p>
+
+{% else %}
+
+<p>couldn't find anything</p>
+
 {% endfor %}
+
+<table>
+     {% tablerow student in site.data.students %} {{ student.name }}
+         {% endtablerow %}
+     {% tablerow student in site.data.students %} {{ student.github_username }}
+        {% endtablerow %}
+     {% tablerow student in site.data.students %} {{ student.blog_url }}
+        {% endtablerow %}
+     </table>
