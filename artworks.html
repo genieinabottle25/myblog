@@ -1,0 +1,9 @@
+---
+layout: page
+title: Artworks
+---
+
+{% for art in site.artworks %}
+    <h2>{{ art.title }}: {{ art.location}} ({{ art.year }})</h2>
+    <img src="{{ art.image }}" alt="{{ art.title }}: {{ art.year}}">
+{% endfor %}
