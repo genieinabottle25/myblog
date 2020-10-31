@@ -1,0 +1,36 @@
+---
+layout: page
+title: Chinese Artists
+---
+
+{% for artist in site.data.artists %}
+
+      <p> <b>{{ artist.ArtistID}}.
+          {{ artist.EnglishName}}</b>
+          {{ artist.ChineseName}}
+          ({{ artist.Nationality}})
+          <i>{{ artist.Gender}}</i>
+          ({{ artist.BirthYear}}-{{ artist.DeathYear}})
+          {{ artist.EnglishName | replace: " ", "_" }}
+      </p>
+      
+      {% assign english = artist.EnglishName | replace: " ", "_" %}
+      {{ english}}
+
+      {% assign num = 3 %}
+<table>
+{% tablerow i in (1..num) %}
+  {{ i }}
+{% endtablerow %}
+</table>
+
+      <img src="/media/img/china-artworks/{{english}}_{{artist.ChineseName}}/{{english}}_01.jpg">
+
+
+
+   
+
+
+  {% endfor %}
+
+
