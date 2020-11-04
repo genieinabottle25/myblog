@@ -10,23 +10,19 @@ title: Chinese Artists
           {{ artist.ChineseName}}
           ({{ artist.Nationality}})
           <i>{{ artist.Gender}}</i>
-          ({{ artist.BirthYear}}-{{ artist.DeathYear}})
-          {{ artist.EnglishName | replace: " ", "_" }}
+          
       </p>
       
-      {% assign english = artist.EnglishName | replace: " ", "_" %}
-      {{ english}}
+      {% assign english = artist.EnglishName | replace: " ", "_" %} 
+      
 
       {% assign num = 3 %}
-<table>
-{% tablerow i in (1..num) %}
-  {{ i }}
-{% endtablerow %}
-</table>
+      <table>
+      {% tablerow i in (1..num) %}
+        <img src="/media/img/china-artworks/{{english}}_{{artist.ChineseName}}/{{english}}_0{{i}}.jpg" width="350">
 
-      <img src="/media/img/china-artworks/{{english}}_{{artist.ChineseName}}/{{english}}_01.jpg">
-
-
+      {% endtablerow %}
+      </table>
 
    
 
