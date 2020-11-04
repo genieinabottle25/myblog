@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Internet Archieve"
+title:  "Internet Archive"
 date:   2020-10-25 19:21:38 +0100
 categories: jekyll update
 ---
-**[Internet Archieve](https://archive.org/)**
+**[Internet Archive](https://archive.org/)**
 
 <img src="/../media/img/internet.jpg">
 
