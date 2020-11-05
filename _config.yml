@@ -56,3 +56,7 @@ plugins:
 collections: 
   artworks:
     output: true
+
+collections:
+  archives:
+    output: true

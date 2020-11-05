@@ -2,4 +2,29 @@
 layout: default 
 ---
 
-<h1>{{ page. name}}</h1>
+<p>
+<a href="{{ page.site_url }}">
+    <h1>{{ page.name }}</h1>
+</a></p>
+
+<p><i> 
+    {{page.date_of_visit}}
+    <a href="/_posts/{{page.my_review_url}}">my review</a>
+</i></p>
+
+
+
+<p><img src=" {{page.screenshot_image}}" width="700"></p>
+
+<P> </P>
+<p>
+    <h3>-What's my favourite?</h3>
+    <a href="{{page.favourite_object_url}}"><h3>-{{page.favourite_object_name}}</h3></a>
+
+    
+</p>
+
+<p>
+    {{page.google_map_location}}
+</p>
+

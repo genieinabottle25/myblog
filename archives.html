@@ -5,13 +5,19 @@ title: Archives
 
 {% for archive in site.archives %}
 
-  <a href="{{ archive.url}}">
-  <p> <h3>{{ archive.name }}</h3> 
 
+<p>
+    <a href=" {{archive.url}} ">  
+    <h3>{{archive.name}}</h3>
+    </a> 
   </p>
-      <img src="{{ archive.screenshot_image }}"width="700" >
 
-    </a>
-  aaa
+<p>
+    <i>
+       {{archive.country}}-
+      {{archive.date_of_visit}}
+    </i>
+</p>
 
-{% endfor %}
+  
+  {% endfor %}
