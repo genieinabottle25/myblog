@@ -53,10 +53,8 @@ plugins:
 #   - vendor/ruby/
 
 
-collections: 
+collections:
+  archives:
   artworks:
     output: true
 
-collections:
-  archives:
-    output: true
