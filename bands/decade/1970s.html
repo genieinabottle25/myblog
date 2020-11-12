@@ -1,0 +1,21 @@
+---
+layout: page
+title: 1970s Bands
+---
+
+{% for band in site.data.metal_bands_2017 %}
+
+{% if band.formed >= "1970" and band.formed < "1980" %}
+
+<h4>
+    <b>
+        {{ band.band_name }} 
+    </b>
+    <i>
+        {{ band.formed}}
+    </i>       
+    </h4>
+    
+{%endif%}
+
+{% endfor %}

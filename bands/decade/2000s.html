@@ -1,0 +1,21 @@
+---
+layout: page
+title: 2000s Bands
+---
+
+{% for band in site.data.metal_bands_2017 %}
+
+{% if band.formed >= "2000" and band.formed < "2010" %}
+
+<h4>
+    <b>
+        {{ band.band_name }} 
+    </b>
+    <i>
+        {{ band.formed}}
+    </i>       
+    </h4>
+    
+{%endif%}
+
+{% endfor %}
